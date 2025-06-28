@@ -1,0 +1,1593 @@
+{
+  "Bulbasaur": {
+    "name": "Bulbasaur",
+    "id": 1,
+    "types": ["Grass", "Poison"],
+    "baseStats": { "hp": 45, "attack": 49, "defense": 49, "specialAttack": 65, "specialDefense": 65, "speed": 45 },
+    "isStarter": true,
+    "isWild": false,
+    "evolutions": [{ "name": "Ivysaur", "level": 16 }],
+    "moves": [
+      {"name": "Tackle", "level": 1},
+      {"name": "Growl", "level": 1},
+      {"name": "Vine Whip", "level": 7},
+      {"name": "Poison Powder", "level": 13}
+    ]
+  },
+  "Ivysaur": {
+    "name": "Ivysaur",
+    "id": 2,
+    "types": ["Grass", "Poison"],
+    "baseStats": { "hp": 60, "attack": 62, "defense": 63, "specialAttack": 80, "specialDefense": 80, "speed": 60 },
+    "isWild": true,
+    "evolutions": [{ "name": "Venusaur", "level": 32 }],
+    "moves": [
+      {"name": "Razor Leaf", "level": 20},
+      {"name": "Sleep Powder", "level": 27}
+    ]
+  },
+  "Venusaur": {
+    "name": "Venusaur",
+    "id": 3,
+    "types": ["Grass", "Poison"],
+    "baseStats": { "hp": 80, "attack": 82, "defense": 83, "specialAttack": 100, "specialDefense": 100, "speed": 80 },
+    "isWild": true,
+    "moves": [
+      {"name": "Solar Beam", "level": 46},
+      {"name": "Growth", "level": 53}
+    ]
+  },
+  "Charmander": {
+    "name": "Charmander",
+    "id": 4,
+    "types": ["Fire"],
+    "baseStats": { "hp": 39, "attack": 52, "defense": 43, "specialAttack": 60, "specialDefense": 50, "speed": 65 },
+    "isStarter": true,
+    "isWild": false,
+    "evolutions": [{ "name": "Charmeleon", "level": 16 }],
+    "moves": [
+      {"name": "Scratch", "level": 1},
+      {"name": "Ember", "level": 7},
+      {"name": "Smokescreen", "level": 13}
+    ]
+  },
+  "Charmeleon": {
+    "name": "Charmeleon",
+    "id": 5,
+    "types": ["Fire"],
+    "baseStats": { "hp": 58, "attack": 64, "defense": 58, "specialAttack": 80, "specialDefense": 65, "speed": 80 },
+    "isWild": true,
+    "evolutions": [{ "name": "Charizard", "level": 36 }],
+    "moves": [
+      {"name": "Dragon Rage", "level": 20},
+      {"name": "Fire Spin", "level": 28}
+    ]
+  },
+  "Charizard": {
+    "name": "Charizard",
+    "id": 6,
+    "types": ["Fire", "Flying"],
+    "baseStats": { "hp": 78, "attack": 84, "defense": 78, "specialAttack": 109, "specialDefense": 85, "speed": 100 },
+    "isWild": true,
+    "moves": [
+      {"name": "Flamethrower", "level": 34},
+      {"name": "Fire Blast", "level": 55}
+    ]
+  },
+  "Squirtle": {
+    "name": "Squirtle",
+    "id": 7,
+    "types": ["Water"],
+    "baseStats": { "hp": 44, "attack": 48, "defense": 65, "specialAttack": 50, "specialDefense": 64, "speed": 43 },
+    "isStarter": true,
+    "isWild": false,
+    "evolutions": [{ "name": "Wartortle", "level": 16 }],
+    "moves": [
+      {"name": "Tackle", "level": 1},
+      {"name": "Bubble", "level": 7},
+      {"name": "Water Gun", "level": 13}
+    ]
+  },
+  "Wartortle": {
+    "name": "Wartortle",
+    "id": 8,
+    "types": ["Water"],
+    "baseStats": { "hp": 59, "attack": 63, "defense": 80, "specialAttack": 65, "specialDefense": 80, "speed": 58 },
+    "isWild": true,
+    "evolutions": [{ "name": "Blastoise", "level": 36 }],
+    "moves": [
+      {"name": "Bite", "level": 20},
+      {"name": "Withdraw", "level": 24}
+    ]
+  },
+  "Blastoise": {
+    "name": "Blastoise",
+    "id": 9,
+    "types": ["Water"],
+    "baseStats": { "hp": 79, "attack": 83, "defense": 100, "specialAttack": 85, "specialDefense": 105, "speed": 78 },
+    "isWild": true,
+    "moves": [
+      {"name": "Hydro Pump", "level": 42},
+      {"name": "Skull Bash", "level": 52}
+    ]
+  },
+  "Caterpie": {
+    "name": "Caterpie",
+    "id": 10,
+    "types": ["Bug"],
+    "baseStats": { "hp": 45, "attack": 30, "defense": 35, "specialAttack": 20, "specialDefense": 20, "speed": 45 },
+    "isWild": true,
+    "evolutions": [{ "name": "Metapod", "level": 7 }],
+    "moves": [
+      {"name": "Tackle", "level": 1},
+      {"name": "String Shot", "level": 1}
+    ]
+  },
+  "Metapod": {
+    "name": "Metapod",
+    "id": 11,
+    "types": ["Bug"],
+    "baseStats": { "hp": 50, "attack": 20, "defense": 55, "specialAttack": 25, "specialDefense": 25, "speed": 30 },
+    "isWild": true,
+    "evolutions": [{ "name": "Butterfree", "level": 10 }],
+    "moves": [
+      {"name": "Harden", "level": 1}
+    ]
+  },
+  "Butterfree": {
+    "name": "Butterfree",
+    "id": 12,
+    "types": ["Bug", "Flying"],
+    "baseStats": { "hp": 60, "attack": 45, "defense": 50, "specialAttack": 90, "specialDefense": 80, "speed": 70 },
+    "isWild": true,
+    "moves": [
+      {"name": "Confusion", "level": 12},
+      {"name": "Poison Powder", "level": 15},
+      {"name": "Sleep Powder", "level": 18}
+    ]
+  },
+  "Weedle": {
+    "name": "Weedle",
+    "id": 13,
+    "types": ["Bug", "Poison"],
+    "baseStats": { "hp": 40, "attack": 35, "defense": 30, "specialAttack": 20, "specialDefense": 20, "speed": 50 },
+    "isWild": true,
+    "evolutions": [{ "name": "Kakuna", "level": 7 }],
+    "moves": [
+      {"name": "Poison Sting", "level": 1},
+      {"name": "String Shot", "level": 1}
+    ]
+  },
+  "Kakuna": {
+    "name": "Kakuna",
+    "id": 14,
+    "types": ["Bug", "Poison"],
+    "baseStats": { "hp": 45, "attack": 25, "defense": 50, "specialAttack": 25, "specialDefense": 25, "speed": 35 },
+    "isWild": true,
+    "evolutions": [{ "name": "Beedrill", "level": 10 }],
+    "moves": [
+      {"name": "Harden", "level": 1}
+    ]
+  },
+  "Beedrill": {
+    "name": "Beedrill",
+    "id": 15,
+    "types": ["Bug", "Poison"],
+    "baseStats": { "hp": 65, "attack": 90, "defense": 40, "specialAttack": 45, "specialDefense": 80, "speed": 75 },
+    "isWild": true,
+    "moves": [
+      {"name": "Fury Attack", "level": 12},
+      {"name": "Twineedle", "level": 16}
+    ]
+  },
+  "Pidgey": {
+    "name": "Pidgey",
+    "id": 16,
+    "types": ["Normal", "Flying"],
+    "baseStats": { "hp": 40, "attack": 45, "defense": 40, "specialAttack": 35, "specialDefense": 35, "speed": 56 },
+    "isWild": true,
+    "evolutions": [{ "name": "Pidgeotto", "level": 18 }],
+    "moves": [
+      {"name": "Gust", "level": 1},
+      {"name": "Sand Attack", "level": 5}
+    ]
+  },
+  "Pidgeotto": {
+    "name": "Pidgeotto",
+    "id": 17,
+    "types": ["Normal", "Flying"],
+    "baseStats": { "hp": 63, "attack": 60, "defense": 55, "specialAttack": 50, "specialDefense": 50, "speed": 71 },
+    "isWild": true,
+    "evolutions": [{ "name": "Pidgeot", "level": 36 }],
+    "moves": [
+      {"name": "Quick Attack", "level": 22},
+      {"name": "Whirlwind", "level": 28}
+    ]
+  },
+  "Pidgeot": {
+    "name": "Pidgeot",
+    "id": 18,
+    "types": ["Normal", "Flying"],
+    "baseStats": { "hp": 83, "attack": 80, "defense": 75, "specialAttack": 70, "specialDefense": 70, "speed": 101 },
+    "isWild": true,
+    "moves": [
+      {"name": "Wing Attack", "level": 44},
+      {"name": "Mirror Move", "level": 50}
+    ]
+  },
+  "Rattata": {
+    "name": "Rattata",
+    "types": ["Normal"],
+    "baseStats": { "hp": 30, "attack": 56, "defense": 35, "specialAttack": 25, "specialDefense": 35, "speed": 72 },
+    "isWild": true,
+    "evolutions": [{ "name": "Raticate", "level": 20 }],
+    "moves": [
+      {"name": "Tackle", "level": 1},
+      {"name": "Quick Attack", "level": 7}
+    ]
+  },
+  "Raticate": {
+    "name": "Raticate",
+    "types": ["Normal"],
+    "baseStats": { "hp": 55, "attack": 81, "defense": 60, "specialAttack": 50, "specialDefense": 70, "speed": 97 },
+    "isWild": true,
+    "moves": [
+      {"name": "Hyper Fang", "level": 24},
+      {"name": "Focus Energy", "level": 29}
+    ]
+  },
+  "Spearow": {
+    "name": "Spearow",
+    "types": ["Normal", "Flying"],
+    "baseStats": { "hp": 40, "attack": 60, "defense": 30, "specialAttack": 31, "specialDefense": 31, "speed": 70 },
+    "isWild": true,
+    "evolutions": [{ "name": "Fearow", "level": 20 }],
+    "moves": [
+      {"name": "Peck", "level": 1},
+      {"name": "Leer", "level": 7}
+    ]
+  },
+  "Fearow": {
+    "name": "Fearow",
+    "types": ["Normal", "Flying"],
+    "baseStats": { "hp": 65, "attack": 90, "defense": 65, "specialAttack": 61, "specialDefense": 61, "speed": 100 },
+    "isWild": true,
+    "moves": [
+      {"name": "Fury Attack", "level": 24},
+      {"name": "Drill Peck", "level": 32}
+    ]
+  },
+  "Pikachu": {
+    "name": "Pikachu",
+    "types": ["Electric"],
+    "baseStats": { "hp": 35, "attack": 55, "defense": 40, "specialAttack": 50, "specialDefense": 50, "speed": 90 },
+    "isWild": true,
+    "evolutions": [{ "name": "Raichu", "item": "Thunder Stone" }],
+    "moves": [
+      {"name": "Thunder Shock", "level": 1},
+      {"name": "Quick Attack", "level": 6},
+      {"name": "Thunder Wave", "level": 8}
+    ]
+  },
+  "Raichu": {
+    "name": "Raichu",
+    "types": ["Electric"],
+    "baseStats": { "hp": 60, "attack": 90, "defense": 55, "specialAttack": 90, "specialDefense": 80, "speed": 110 },
+    "isWild": true,
+    "moves": [
+      {"name": "Thunderbolt", "level": 1},
+      {"name": "Agility", "level": 42}
+    ]
+  },
+  "Sandshrew": {
+    "name": "Sandshrew",
+    "types": ["Ground"],
+    "baseStats": { "hp": 50, "attack": 75, "defense": 85, "specialAttack": 20, "specialDefense": 30, "speed": 40 },
+    "isWild": true,
+    "evolutions": [{ "name": "Sandslash", "level": 22 }],
+    "moves": [
+      {"name": "Scratch", "level": 1},
+      {"name": "Sand Attack", "level": 10}
+    ]
+  },
+  "Sandslash": {
+    "name": "Sandslash",
+    "types": ["Ground"],
+    "baseStats": { "hp": 75, "attack": 100, "defense": 110, "specialAttack": 45, "specialDefense": 55, "speed": 65 },
+    "isWild": true,
+    "moves": [
+      {"name": "Slash", "level": 27},
+      {"name": "Swift", "level": 36}
+    ]
+  },
+  "Nidoran♀": {
+    "name": "Nidoran♀",
+    "types": ["Poison"],
+    "baseStats": { "hp": 55, "attack": 47, "defense": 52, "specialAttack": 40, "specialDefense": 40, "speed": 41 },
+    "isWild": true,
+    "evolutions": [{ "name": "Nidorina", "level": 16 }],
+    "moves": [
+      {"name": "Poison Sting", "level": 1},
+      {"name": "Double Kick", "level": 12}
+    ]
+  },
+  "Nidorina": {
+    "name": "Nidorina",
+    "types": ["Poison"],
+    "baseStats": { "hp": 70, "attack": 62, "defense": 67, "specialAttack": 55, "specialDefense": 55, "speed": 56 },
+    "isWild": true,
+    "evolutions": [{ "name": "Nidoqueen", "item": "Moon Stone" }],
+    "moves": [
+      {"name": "Bite", "level": 23},
+      {"name": "Fury Swipes", "level": 32}
+    ]
+  },
+  "Nidoqueen": {
+    "name": "Nidoqueen",
+    "types": ["Poison", "Ground"],
+    "baseStats": { "hp": 90, "attack": 92, "defense": 87, "specialAttack": 75, "specialDefense": 85, "speed": 76 },
+    "isWild": true,
+    "moves": [
+      {"name": "Body Slam", "level": 1},
+      {"name": "Earthquake", "level": 43}
+    ]
+  },
+  "Nidoran♂": {
+    "name": "Nidoran♂",
+    "types": ["Poison"],
+    "baseStats": { "hp": 46, "attack": 57, "defense": 40, "specialAttack": 40, "specialDefense": 40, "speed": 50 },
+    "isWild": true,
+    "evolutions": [{ "name": "Nidorino", "level": 16 }],
+    "moves": [
+      {"name": "Horn Attack", "level": 1},
+      {"name": "Focus Energy", "level": 8}
+    ]
+  },
+  "Nidorino": {
+    "name": "Nidorino",
+    "types": ["Poison"],
+    "baseStats": { "hp": 61, "attack": 72, "defense": 57, "specialAttack": 55, "specialDefense": 55, "speed": 65 },
+    "isWild": true,
+    "evolutions": [{ "name": "Nidoking", "item": "Moon Stone" }],
+    "moves": [
+      {"name": "Horn Drill", "level": 30},
+      {"name": "Poison Jab", "level": 38}
+    ]
+  },
+  "Nidoking": {
+    "name": "Nidoking",
+    "types": ["Poison", "Ground"],
+    "baseStats": { "hp": 81, "attack": 102, "defense": 77, "specialAttack": 85, "specialDefense": 75, "speed": 85 },
+    "isWild": true,
+    "moves": [
+      {"name": "Thrash", "level": 1},
+      {"name": "Megahorn", "level": 50}
+    ]
+  },
+  "Clefairy": {
+    "name": "Clefairy",
+    "types": ["Normal"],
+    "baseStats": { "hp": 70, "attack": 45, "defense": 48, "specialAttack": 60, "specialDefense": 65, "speed": 35 },
+    "isWild": true,
+    "evolutions": [{ "name": "Clefable", "item": "Moon Stone" }],
+    "moves": [
+      {"name": "Pound", "level": 1},
+      {"name": "Sing", "level": 13}
+    ]
+  },
+  "Clefable": {
+    "name": "Clefable",
+    "types": ["Normal"],
+    "baseStats": { "hp": 95, "attack": 70, "defense": 73, "specialAttack": 95, "specialDefense": 90, "speed": 60 },
+    "isWild": true,
+    "moves": [
+      {"name": "Moonblast", "level": 1},
+      {"name": "Meteor Mash", "level": 42}
+    ]
+  },
+  "Vulpix": {
+    "name": "Vulpix",
+    "types": ["Fire"],
+    "baseStats": { "hp": 38, "attack": 41, "defense": 40, "specialAttack": 50, "specialDefense": 65, "speed": 65 },
+    "isWild": true,
+    "evolutions": [{ "name": "Ninetales", "item": "Fire Stone" }],
+    "moves": [
+      {"name": "Ember", "level": 1},
+      {"name": "Confuse Ray", "level": 16}
+    ]
+  },
+  "Ninetales": {
+    "name": "Ninetales",
+    "types": ["Fire"],
+    "baseStats": { "hp": 73, "attack": 76, "defense": 75, "specialAttack": 81, "specialDefense": 100, "speed": 100 },
+    "isWild": true,
+    "moves": [
+      {"name": "Flamethrower", "level": 1},
+      {"name": "Fire Spin", "level": 48}
+    ]
+  },
+  "Jigglypuff": {
+    "name": "Jigglypuff",
+    "types": ["Normal"],
+    "baseStats": { "hp": 115, "attack": 45, "defense": 20, "specialAttack": 45, "specialDefense": 25, "speed": 20 },
+    "isWild": true,
+    "evolutions": [{ "name": "Wigglytuff", "item": "Moon Stone" }],
+    "moves": [
+      {"name": "Sing", "level": 1},
+      {"name": "Disarming Voice", "level": 9}
+    ]
+  },
+  "Wigglytuff": {
+    "name": "Wigglytuff",
+    "types": ["Normal"],
+    "baseStats": { "hp": 140, "attack": 70, "defense": 45, "specialAttack": 85, "specialDefense": 50, "speed": 45 },
+    "isWild": true,
+    "moves": [
+      {"name": "Double Slap", "level": 1},
+      {"name": "Hyper Voice", "level": 44}
+    ]
+  },
+  "Zubat": {
+    "name": "Zubat",
+    "types": ["Poison", "Flying"],
+    "baseStats": { "hp": 40, "attack": 45, "defense": 35, "specialAttack": 30, "specialDefense": 40, "speed": 55 },
+    "isWild": true,
+    "evolutions": [{ "name": "Golbat", "level": 22 }],
+    "moves": [
+      {"name": "Leech Life", "level": 1},
+      {"name": "Supersonic", "level": 10}
+    ]
+  },
+  "Golbat": {
+    "name": "Golbat",
+    "types": ["Poison", "Flying"],
+    "baseStats": { "hp": 75, "attack": 80, "defense": 70, "specialAttack": 65, "specialDefense": 75, "speed": 90 },
+    "isWild": true,
+    "moves": [
+      {"name": "Wing Attack", "level": 28},
+      {"name": "Air Cutter", "level": 42}
+    ]
+  },
+  "Oddish": {
+    "name": "Oddish",
+    "types": ["Grass", "Poison"],
+    "baseStats": { "hp": 45, "attack": 50, "defense": 55, "specialAttack": 75, "specialDefense": 65, "speed": 30 },
+    "isWild": true,
+    "evolutions": [{ "name": "Gloom", "level": 21 }],
+    "moves": [
+      {"name": "Absorb", "level": 1},
+      {"name": "Acid", "level": 15}
+    ]
+  },
+  "Gloom": {
+    "name": "Gloom",
+    "types": ["Grass", "Poison"],
+    "baseStats": { "hp": 60, "attack": 65, "defense": 70, "specialAttack": 85, "specialDefense": 75, "speed": 40 },
+    "isWild": true,
+    "evolutions": [
+      { "name": "Vileplume", "item": "Leaf Stone" },
+      { "name": "Bellossom", "item": "Sun Stone" }
+    ],
+    "moves": [
+      {"name": "Petal Dance", "level": 44},
+      {"name": "Stun Spore", "level": 17}
+    ]
+  },
+  "Vileplume": {
+    "name": "Vileplume",
+    "types": ["Grass", "Poison"],
+    "baseStats": { "hp": 75, "attack": 80, "defense": 85, "specialAttack": 110, "specialDefense": 90, "speed": 50 },
+    "isWild": true,
+    "moves": [
+      {"name": "Solar Beam", "level": 1},
+      {"name": "Pollen Puff", "level": 59}
+    ]
+  },
+  "Paras": {
+    "name": "Paras",
+    "types": ["Bug", "Grass"],
+    "baseStats": { "hp": 35, "attack": 70, "defense": 55, "specialAttack": 45, "specialDefense": 55, "speed": 25 },
+    "isWild": true,
+    "evolutions": [{ "name": "Parasect", "level": 24 }],
+    "moves": [
+      {"name": "Scratch", "level": 1},
+      {"name": "Spore", "level": 13}
+    ]
+  },
+  "Parasect": {
+    "name": "Parasect",
+    "types": ["Bug", "Grass"],
+    "baseStats": { "hp": 60, "attack": 95, "defense": 80, "specialAttack": 60, "specialDefense": 80, "speed": 30 },
+    "isWild": true,
+    "moves": [
+      {"name": "Slash", "level": 30},
+      {"name": "X-Scissor", "level": 47}
+    ]
+  },
+  "Venonat": {
+    "name": "Venonat",
+    "types": ["Bug", "Poison"],
+    "baseStats": { "hp": 60, "attack": 55, "defense": 50, "specialAttack": 40, "specialDefense": 55, "speed": 45 },
+    "isWild": true,
+    "evolutions": [{ "name": "Venomoth", "level": 31 }],
+    "moves": [
+      {"name": "Tackle", "level": 1},
+      {"name": "Poison Powder", "level": 11}
+    ]
+  },
+  "Venomoth": {
+    "name": "Venomoth",
+    "types": ["Bug", "Poison"],
+    "baseStats": { "hp": 70, "attack": 65, "defense": 60, "specialAttack": 90, "specialDefense": 75, "speed": 90 },
+    "isWild": true,
+    "moves": [
+      {"name": "Psychic", "level": 50},
+      {"name": "Bug Buzz", "level": 35}
+    ]
+  },
+  "Diglett": {
+    "name": "Diglett",
+    "types": ["Ground"],
+    "baseStats": { "hp": 10, "attack": 55, "defense": 25, "specialAttack": 35, "specialDefense": 45, "speed": 95 },
+    "isWild": true,
+    "evolutions": [{ "name": "Dugtrio", "level": 26 }],
+    "moves": [
+      {"name": "Scratch", "level": 1},
+      {"name": "Sand Attack", "level": 15}
+    ]
+  },
+  "Dugtrio": {
+    "name": "Dugtrio",
+    "types": ["Ground"],
+    "baseStats": { "hp": 35, "attack": 100, "defense": 50, "specialAttack": 50, "specialDefense": 70, "speed": 120 },
+    "isWild": true,
+    "moves": [
+      {"name": "Earthquake", "level": 35},
+      {"name": "Sandstorm", "level": 42}
+    ]
+  },
+  "Meowth": {
+    "name": "Meowth",
+    "types": ["Normal"],
+    "baseStats": { "hp": 40, "attack": 45, "defense": 35, "specialAttack": 40, "specialDefense": 40, "speed": 90 },
+    "isWild": true,
+    "evolutions": [{ "name": "Persian", "level": 28 }],
+    "moves": [
+      {"name": "Scratch", "level": 1},
+      {"name": "Pay Day", "level": 12}
+    ]
+  },
+  "Persian": {
+    "name": "Persian",
+    "types": ["Normal"],
+    "baseStats": { "hp": 65, "attack": 70, "defense": 60, "specialAttack": 65, "specialDefense": 65, "speed": 115 },
+    "isWild": true,
+    "moves": [
+      {"name": "Slash", "level": 37},
+      {"name": "Power Gem", "level": 46}
+    ]
+  },
+  "Psyduck": {
+    "name": "Psyduck",
+    "types": ["Water"],
+    "baseStats": { "hp": 50, "attack": 52, "defense": 48, "specialAttack": 65, "specialDefense": 50, "speed": 55 },
+    "isWild": true,
+    "evolutions": [{ "name": "Golduck", "level": 33 }],
+    "moves": [
+      {"name": "Water Gun", "level": 1},
+      {"name": "Confusion", "level": 16}
+    ]
+  },
+  "Golduck": {
+    "name": "Golduck",
+    "types": ["Water"],
+    "baseStats": { "hp": 80, "attack": 82, "defense": 78, "specialAttack": 95, "specialDefense": 80, "speed": 85 },
+    "isWild": true,
+    "moves": [
+      {"name": "Hydro Pump", "level": 52},
+      {"name": "Psychic", "level": 44}
+    ]
+  },
+  "Mankey": {
+    "name": "Mankey",
+    "types": ["Fighting"],
+    "baseStats": { "hp": 40, "attack": 80, "defense": 35, "specialAttack": 35, "specialDefense": 45, "speed": 70 },
+    "isWild": true,
+    "evolutions": [{ "name": "Primeape", "level": 28 }],
+    "moves": [
+      {"name": "Karate Chop", "level": 1},
+      {"name": "Low Kick", "level": 15}
+    ]
+  },
+  "Primeape": {
+    "name": "Primeape",
+    "types": ["Fighting"],
+    "baseStats": { "hp": 65, "attack": 105, "defense": 60, "specialAttack": 60, "specialDefense": 70, "speed": 95 },
+    "isWild": true,
+    "moves": [
+      {"name": "Cross Chop", "level": 46},
+      {"name": "Rage", "level": 37}
+    ]
+  },
+  "Growlithe": {
+    "name": "Growlithe",
+    "types": ["Fire"],
+    "baseStats": { "hp": 55, "attack": 70, "defense": 45, "specialAttack": 70, "specialDefense": 50, "speed": 60 },
+    "isWild": true,
+    "evolutions": [{ "name": "Arcanine", "item": "Fire Stone" }],
+    "moves": [
+      {"name": "Bite", "level": 1},
+      {"name": "Flame Wheel", "level": 18}
+    ]
+  },
+  "Arcanine": {
+    "name": "Arcanine",
+    "types": ["Fire"],
+    "baseStats": { "hp": 90, "attack": 110, "defense": 80, "specialAttack": 100, "specialDefense": 80, "speed": 95 },
+    "isWild": true,
+    "moves": [
+      {"name": "Extreme Speed", "level": 1},
+      {"name": "Fire Blast", "level": 50}
+    ]
+  },
+  "Poliwag": {
+    "name": "Poliwag",
+    "types": ["Water"],
+    "baseStats": { "hp": 40, "attack": 50, "defense": 40, "specialAttack": 40, "specialDefense": 40, "speed": 90 },
+    "isWild": true,
+    "evolutions": [{ "name": "Poliwhirl", "level": 25 }],
+    "moves": [
+      {"name": "Bubble", "level": 1},
+      {"name": "Hypnosis", "level": 16}
+    ]
+  },
+  "Poliwhirl": {
+    "name": "Poliwhirl",
+    "types": ["Water"],
+    "baseStats": { "hp": 65, "attack": 65, "defense": 65, "specialAttack": 50, "specialDefense": 50, "speed": 90 },
+    "isWild": true,
+    "evolutions": [
+      { "name": "Poliwrath", "item": "Water Stone" },
+      { "name": "Politoed", "item": "King's Rock" }
+    ],
+    "moves": [
+      {"name": "Water Pulse", "level": 36},
+      {"name": "Bubble Beam", "level": 28}
+    ]
+  },
+  "Poliwrath": {
+    "name": "Poliwrath",
+    "types": ["Water", "Fighting"],
+    "baseStats": { "hp": 90, "attack": 95, "defense": 95, "specialAttack": 70, "specialDefense": 90, "speed": 70 },
+    "isWild": true,
+    "moves": [
+      {"name": "Dynamic Punch", "level": 1},
+      {"name": "Submission", "level": 58}
+    ]
+  },
+  "Abra": {
+    "name": "Abra",
+    "types": ["Psychic"],
+    "baseStats": { "hp": 25, "attack": 20, "defense": 15, "specialAttack": 105, "specialDefense": 55, "speed": 90 },
+    "isWild": true,
+    "evolutions": [{ "name": "Kadabra", "level": 16 }],
+    "moves": [
+      {"name": "Teleport", "level": 1}
+    ]
+  },
+  "Kadabra": {
+    "name": "Kadabra",
+    "types": ["Psychic"],
+    "baseStats": { "hp": 40, "attack": 35, "defense": 30, "specialAttack": 120, "specialDefense": 70, "speed": 105 },
+    "isWild": true,
+    "evolutions": [{ "name": "Alakazam", "method": "trade" }],
+    "moves": [
+      {"name": "Confusion", "level": 16},
+      {"name": "Psybeam", "level": 21}
+    ]
+  },
+  "Alakazam": {
+    "name": "Alakazam",
+    "types": ["Psychic"],
+    "baseStats": { "hp": 55, "attack": 50, "defense": 45, "specialAttack": 135, "specialDefense": 95, "speed": 120 },
+    "isWild": true,
+    "moves": [
+      {"name": "Psychic", "level": 38},
+      {"name": "Recover", "level": 47}
+    ]
+  },
+  "Machop": {
+    "name": "Machop",
+    "types": ["Fighting"],
+    "baseStats": { "hp": 70, "attack": 80, "defense": 50, "specialAttack": 35, "specialDefense": 35, "speed": 35 },
+    "isWild": true,
+    "evolutions": [{ "name": "Machoke", "level": 28 }],
+    "moves": [
+      {"name": "Karate Chop", "level": 1},
+      {"name": "Low Kick", "level": 15}
+    ]
+  },
+  "Machoke": {
+    "name": "Machoke",
+    "types": ["Fighting"],
+    "baseStats": { "hp": 80, "attack": 100, "defense": 70, "specialAttack": 50, "specialDefense": 60, "speed": 45 },
+    "isWild": true,
+    "evolutions": [{ "name": "Machamp", "method": "trade" }],
+    "moves": [
+      {"name": "Submission", "level": 37},
+      {"name": "Wake-Up Slap", "level": 44}
+    ]
+  },
+  "Machamp": {
+    "name": "Machamp",
+    "types": ["Fighting"],
+    "baseStats": { "hp": 90, "attack": 130, "defense": 80, "specialAttack": 65, "specialDefense": 85, "speed": 55 },
+    "isWild": true,
+    "moves": [
+      {"name": "Dynamic Punch", "level": 1},
+      {"name": "Cross Chop", "level": 52}
+    ]
+  },
+  "Bellsprout": {
+    "name": "Bellsprout",
+    "types": ["Grass", "Poison"],
+    "baseStats": { "hp": 50, "attack": 75, "defense": 35, "specialAttack": 70, "specialDefense": 30, "speed": 40 },
+    "isWild": true,
+    "evolutions": [{ "name": "Weepinbell", "level": 21 }],
+    "moves": [
+      {"name": "Vine Whip", "level": 1},
+      {"name": "Acid", "level": 13}
+    ]
+  },
+  "Weepinbell": {
+    "name": "Weepinbell",
+    "types": ["Grass", "Poison"],
+    "baseStats": { "hp": 65, "attack": 90, "defense": 50, "specialAttack": 85, "specialDefense": 45, "speed": 55 },
+    "isWild": true,
+    "evolutions": [{ "name": "Victreebel", "item": "Leaf Stone" }],
+    "moves": [
+      {"name": "Razor Leaf", "level": 28},
+      {"name": "Poison Jab", "level": 39}
+    ]
+  },
+  "Victreebel": {
+    "name": "Victreebel",
+    "types": ["Grass", "Poison"],
+    "baseStats": { "hp": 80, "attack": 105, "defense": 65, "specialAttack": 100, "specialDefense": 70, "speed": 70 },
+    "isWild": true,
+    "moves": [
+      {"name": "Leaf Blade", "level": 1},
+      {"name": "Leaf Storm", "level": 56}
+    ]
+  },
+  "Tentacool": {
+    "name": "Tentacool",
+    "types": ["Water", "Poison"],
+    "baseStats": { "hp": 40, "attack": 40, "defense": 35, "specialAttack": 50, "specialDefense": 100, "speed": 70 },
+    "isWild": true,
+    "evolutions": [{ "name": "Tentacruel", "level": 30 }],
+    "moves": [
+      {"name": "Poison Sting", "level": 1},
+      {"name": "Constrict", "level": 12}
+    ]
+  },
+  "Tentacruel": {
+    "name": "Tentacruel",
+    "types": ["Water", "Poison"],
+    "baseStats": { "hp": 80, "attack": 70, "defense": 65, "specialAttack": 80, "specialDefense": 120, "speed": 100 },
+    "isWild": true,
+    "moves": [
+      {"name": "Sludge Wave", "level": 49},
+      {"name": "Hydro Pump", "level": 42}
+    ]
+  },
+  "Geodude": {
+    "name": "Geodude",
+    "types": ["Rock", "Ground"],
+    "baseStats": { "hp": 40, "attack": 80, "defense": 100, "specialAttack": 30, "specialDefense": 30, "speed": 20 },
+    "isWild": true,
+    "evolutions": [{ "name": "Graveler", "level": 25 }],
+    "moves": [
+      {"name": "Rock Throw", "level": 1},
+      {"name": "Defense Curl", "level": 11}
+    ]
+  },
+  "Graveler": {
+    "name": "Graveler",
+    "types": ["Rock", "Ground"],
+    "baseStats": { "hp": 55, "attack": 95, "defense": 115, "specialAttack": 45, "specialDefense": 45, "speed": 35 },
+    "isWild": true,
+    "evolutions": [{ "name": "Golem", "method": "trade" }],
+    "moves": [
+      {"name": "Rock Slide", "level": 36},
+      {"name": "Earthquake", "level": 47}
+    ]
+  },
+  "Golem": {
+    "name": "Golem",
+    "types": ["Rock", "Ground"],
+    "baseStats": { "hp": 80, "attack": 120, "defense": 130, "specialAttack": 55, "specialDefense": 65, "speed": 45 },
+    "isWild": true,
+    "moves": [
+      {"name": "Stone Edge", "level": 1},
+      {"name": "Heavy Slam", "level": 58}
+    ]
+  },
+  "Ponyta": {
+    "name": "Ponyta",
+    "types": ["Fire"],
+    "baseStats": { "hp": 50, "attack": 85, "defense": 55, "specialAttack": 65, "specialDefense": 65, "speed": 90 },
+    "isWild": true,
+    "evolutions": [{ "name": "Rapidash", "level": 40 }],
+    "moves": [
+      {"name": "Ember", "level": 1},
+      {"name": "Flame Charge", "level": 17}
+    ]
+  },
+  "Rapidash": {
+    "name": "Rapidash",
+    "types": ["Fire"],
+    "baseStats": { "hp": 65, "attack": 100, "defense": 70, "specialAttack": 80, "specialDefense": 80, "speed": 105 },
+    "isWild": true,
+    "moves": [
+      {"name": "Fire Spin", "level": 40},
+      {"name": "Flare Blitz", "level": 48}
+    ]
+  },
+  "Slowpoke": {
+    "name": "Slowpoke",
+    "types": ["Water", "Psychic"],
+    "baseStats": { "hp": 90, "attack": 65, "defense": 65, "specialAttack": 40, "specialDefense": 40, "speed": 15 },
+    "isWild": true,
+    "evolutions": [
+      { "name": "Slowbro", "level": 37 },
+      { "name": "Slowking", "item": "King's Rock" }
+    ],
+    "moves": [
+      {"name": "Confusion", "level": 1},
+      {"name": "Water Pulse", "level": 18}
+    ]
+  },
+  "Slowbro": {
+    "name": "Slowbro",
+    "types": ["Water", "Psychic"],
+    "baseStats": { "hp": 95, "attack": 75, "defense": 110, "specialAttack": 100, "specialDefense": 80, "speed": 30 },
+    "isWild": true,
+    "moves": [
+      {"name": "Psychic", "level": 44},
+      {"name": "Amnesia", "level": 37}
+    ]
+  },
+  "Magnemite": {
+    "name": "Magnemite",
+    "types": ["Electric", "Steel"],
+    "baseStats": { "hp": 25, "attack": 35, "defense": 70, "specialAttack": 95, "specialDefense": 55, "speed": 45 },
+    "isWild": true,
+    "evolutions": [{ "name": "Magneton", "level": 30 }],
+    "moves": [
+      {"name": "Thunder Shock", "level": 1},
+      {"name": "Electro Ball", "level": 13}
+    ]
+  },
+  "Magneton": {
+    "name": "Magneton",
+    "types": ["Electric", "Steel"],
+    "baseStats": { "hp": 50, "attack": 60, "defense": 95, "specialAttack": 120, "specialDefense": 70, "speed": 70 },
+    "isWild": true,
+    "evolutions": [{ "name": "Magnezone", "method": "Magnetic Field" }],
+    "moves": [
+      {"name": "Zap Cannon", "level": 50},
+      {"name": "Flash Cannon", "level": 42}
+    ]
+  },
+  "Farfetch'd": {
+    "name": "Farfetch'd",
+    "types": ["Normal", "Flying"],
+    "baseStats": { "hp": 52, "attack": 90, "defense": 55, "specialAttack": 58, "specialDefense": 62, "speed": 60 },
+    "isWild": true,
+    "moves": [
+      {"name": "Cut", "level": 1},
+      {"name": "Air Cutter", "level": 31}
+    ]
+  },
+  "Doduo": {
+    "name": "Doduo",
+    "types": ["Normal", "Flying"],
+    "baseStats": { "hp": 35, "attack": 85, "defense": 45, "specialAttack": 35, "specialDefense": 35, "speed": 75 },
+    "isWild": true,
+    "evolutions": [{ "name": "Dodrio", "level": 31 }],
+    "moves": [
+      {"name": "Peck", "level": 1},
+      {"name": "Fury Attack", "level": 20}
+    ]
+  },
+  "Dodrio": {
+    "name": "Dodrio",
+    "types": ["Normal", "Flying"],
+    "baseStats": { "hp": 60, "attack": 110, "defense": 70, "specialAttack": 60, "specialDefense": 60, "speed": 110 },
+    "isWild": true,
+    "moves": [
+      {"name": "Drill Peck", "level": 39},
+      {"name": "Agility", "level": 44}
+    ]
+  },
+  "Seel": {
+    "name": "Seel",
+    "types": ["Water"],
+    "baseStats": { "hp": 65, "attack": 45, "defense": 55, "specialAttack": 45, "specialDefense": 70, "speed": 45 },
+    "isWild": true,
+    "evolutions": [{ "name": "Dewgong", "level": 34 }],
+    "moves": [
+      {"name": "Headbutt", "level": 1},
+      {"name": "Icy Wind", "level": 21}
+    ]
+  },
+  "Dewgong": {
+    "name": "Dewgong",
+    "types": ["Water", "Ice"],
+    "baseStats": { "hp": 90, "attack": 70, "defense": 80, "specialAttack": 70, "specialDefense": 95, "speed": 70 },
+    "isWild": true,
+    "moves": [
+      {"name": "Aurora Beam", "level": 34},
+      {"name": "Ice Beam", "level": 47}
+    ]
+  },
+  "Grimer": {
+    "name": "Grimer",
+    "types": ["Poison"],
+    "baseStats": { "hp": 80, "attack": 80, "defense": 50, "specialAttack": 40, "specialDefense": 50, "speed": 25 },
+    "isWild": true,
+    "evolutions": [{ "name": "Muk", "level": 38 }],
+    "moves": [
+      {"name": "Pound", "level": 1},
+      {"name": "Sludge", "level": 18}
+    ]
+  },
+  "Muk": {
+    "name": "Muk",
+    "types": ["Poison"],
+    "baseStats": { "hp": 105, "attack": 105, "defense": 75, "specialAttack": 65, "specialDefense": 100, "speed": 50 },
+    "isWild": true,
+    "moves": [
+      {"name": "Sludge Bomb", "level": 50},
+      {"name": "Gunk Shot", "level": 62}
+    ]
+  },
+  "Shellder": {
+    "name": "Shellder",
+    "types": ["Water"],
+    "baseStats": { "hp": 30, "attack": 65, "defense": 100, "specialAttack": 45, "specialDefense": 25, "speed": 40 },
+    "isWild": true,
+    "evolutions": [{ "name": "Cloyster", "item": "Water Stone" }],
+    "moves": [
+      {"name": "Tackle", "level": 1},
+      {"name": "Water Gun", "level": 12}
+    ]
+  },
+  "Cloyster": {
+    "name": "Cloyster",
+    "types": ["Water", "Ice"],
+    "baseStats": { "hp": 50, "attack": 95, "defense": 180, "specialAttack": 85, "specialDefense": 45, "speed": 70 },
+    "isWild": true,
+    "moves": [
+      {"name": "Icicle Spear", "level": 1},
+      {"name": "Spike Cannon", "level": 50}
+    ]
+  },
+  "Gastly": {
+    "name": "Gastly",
+    "types": ["Ghost", "Poison"],
+    "baseStats": { "hp": 30, "attack": 35, "defense": 30, "specialAttack": 100, "specialDefense": 35, "speed": 80 },
+    "isWild": true,
+    "evolutions": [{ "name": "Haunter", "level": 25 }],
+    "moves": [
+      {"name": "Lick", "level": 1},
+      {"name": "Shadow Ball", "level": 21}
+    ]
+  },
+  "Haunter": {
+    "name": "Haunter",
+    "types": ["Ghost", "Poison"],
+    "baseStats": { "hp": 45, "attack": 50, "defense": 45, "specialAttack": 115, "specialDefense": 55, "speed": 95 },
+    "isWild": true,
+    "evolutions": [{ "name": "Gengar", "method": "trade" }],
+    "moves": [
+      {"name": "Night Shade", "level": 33},
+      {"name": "Sucker Punch", "level": 39}
+    ]
+  },
+  "Gengar": {
+    "name": "Gengar",
+    "types": ["Ghost", "Poison"],
+    "baseStats": { "hp": 60, "attack": 65, "defense": 60, "specialAttack": 130, "specialDefense": 75, "speed": 110 },
+    "isWild": true,
+    "moves": [
+      {"name": "Shadow Ball", "level": 45},
+      {"name": "Destiny Bond", "level": 60}
+    ]
+  },
+  "Onix": {
+    "name": "Onix",
+    "types": ["Rock", "Ground"],
+    "baseStats": { "hp": 35, "attack": 45, "defense": 160, "specialAttack": 30, "specialDefense": 45, "speed": 70 },
+    "isWild": true,
+    "evolutions": [{ "name": "Steelix", "method": "trade" }],
+    "moves": [
+      {"name": "Rock Throw", "level": 1},
+      {"name": "Bind", "level": 15}
+    ]
+  },
+  "Drowzee": {
+    "name": "Drowzee",
+    "types": ["Psychic"],
+    "baseStats": { "hp": 60, "attack": 48, "defense": 45, "specialAttack": 43, "specialDefense": 90, "speed": 42 },
+    "isWild": true,
+    "evolutions": [{ "name": "Hypno", "level": 26 }],
+    "moves": [
+      {"name": "Pound", "level": 1},
+      {"name": "Hypnosis", "level": 17}
+    ]
+  },
+  "Hypno": {
+    "name": "Hypno",
+    "types": ["Psychic"],
+    "baseStats": { "hp": 85, "attack": 73, "defense": 70, "specialAttack": 73, "specialDefense": 115, "speed": 67 },
+    "isWild": true,
+    "moves": [
+      {"name": "Psycho Cut", "level": 37},
+      {"name": "Dream Eater", "level": 50}
+    ]
+  },
+  "Krabby": {
+    "name": "Krabby",
+    "types": ["Water"],
+    "baseStats": { "hp": 30, "attack": 105, "defense": 90, "specialAttack": 25, "specialDefense": 25, "speed": 50 },
+    "isWild": true,
+    "evolutions": [{ "name": "Kingler", "level": 28 }],
+    "moves": [
+      {"name": "Bubble", "level": 1},
+      {"name": "Vice Grip", "level": 12}
+    ]
+  },
+  "Kingler": {
+    "name": "Kingler",
+    "types": ["Water"],
+    "baseStats": { "hp": 55, "attack": 130, "defense": 115, "specialAttack": 50, "specialDefense": 50, "speed": 75 },
+    "isWild": true,
+    "moves": [
+      {"name": "Crabhammer", "level": 42},
+      {"name": "Guillotine", "level": 56}
+    ]
+  },
+  "Voltorb": {
+    "name": "Voltorb",
+    "types": ["Electric"],
+    "baseStats": { "hp": 40, "attack": 30, "defense": 50, "specialAttack": 55, "specialDefense": 55, "speed": 100 },
+    "isWild": true,
+    "evolutions": [{ "name": "Electrode", "level": 30 }],
+    "moves": [
+      {"name": "Charge", "level": 1},
+      {"name": "Spark", "level": 15}
+    ]
+  },
+  "Electrode": {
+    "name": "Electrode",
+    "types": ["Electric"],
+    "baseStats": { "hp": 60, "attack": 50, "defense": 70, "specialAttack": 80, "specialDefense": 80, "speed": 150 },
+    "isWild": true,
+    "moves": [
+      {"name": "Self-Destruct", "level": 40},
+      {"name": "Thunderbolt", "level": 50}
+    ]
+  },
+  "Exeggcute": {
+    "name": "Exeggcute",
+    "types": ["Grass", "Psychic"],
+    "baseStats": { "hp": 60, "attack": 40, "defense": 80, "specialAttack": 60, "specialDefense": 45, "speed": 40 },
+    "isWild": true,
+    "evolutions": [{ "name": "Exeggutor", "item": "Leaf Stone" }],
+    "moves": [
+      {"name": "Absorb", "level": 1},
+      {"name": "Confusion", "level": 25}
+    ]
+  },
+  "Exeggutor": {
+    "name": "Exeggutor",
+    "types": ["Grass", "Psychic"],
+    "baseStats": { "hp": 95, "attack": 95, "defense": 85, "specialAttack": 125, "specialDefense": 75, "speed": 55 },
+    "isWild": true,
+    "moves": [
+      {"name": "Psyshock", "level": 1},
+      {"name": "Solar Beam", "level": 48}
+    ]
+  },
+  "Cubone": {
+    "name": "Cubone",
+    "types": ["Ground"],
+    "baseStats": { "hp": 50, "attack": 50, "defense": 95, "specialAttack": 40, "specialDefense": 50, "speed": 35 },
+    "isWild": true,
+    "evolutions": [{ "name": "Marowak", "level": 28 }],
+    "moves": [
+      {"name": "Bone Club", "level": 1},
+      {"name": "Headbutt", "level": 13}
+    ]
+  },
+  "Marowak": {
+    "name": "Marowak",
+    "types": ["Ground"],
+    "baseStats": { "hp": 60, "attack": 80, "defense": 110, "specialAttack": 50, "specialDefense": 80, "speed": 45 },
+    "isWild": true,
+    "moves": [
+      {"name": "Bonemerang", "level": 36},
+      {"name": "Bone Rush", "level": 46}
+    ]
+  },
+  "Hitmonlee": {
+    "name": "Hitmonlee",
+    "types": ["Fighting"],
+    "baseStats": { "hp": 50, "attack": 120, "defense": 53, "specialAttack": 35, "specialDefense": 110, "speed": 87 },
+    "isWild": true,
+    "moves": [
+      {"name": "Jump Kick", "level": 1},
+      {"name": "High Jump Kick", "level": 53}
+    ]
+  },
+  "Hitmonchan": {
+    "name": "Hitmonchan",
+    "types": ["Fighting"],
+    "baseStats": { "hp": 50, "attack": 105, "defense": 79, "specialAttack": 35, "specialDefense": 110, "speed": 76 },
+    "isWild": true,
+    "moves": [
+      {"name": "Comet Punch", "level": 1},
+      {"name": "Sky Uppercut", "level": 53}
+    ]
+  },
+  "Lickitung": {
+    "name": "Lickitung",
+    "types": ["Normal"],
+    "baseStats": { "hp": 90, "attack": 55, "defense": 75, "specialAttack": 60, "specialDefense": 75, "speed": 30 },
+    "isWild": true,
+    "moves": [
+      {"name": "Lick", "level": 1},
+      {"name": "Stomp", "level": 31}
+    ]
+  },
+  "Koffing": {
+    "name": "Koffing",
+    "types": ["Poison"],
+    "baseStats": { "hp": 40, "attack": 65, "defense": 95, "specialAttack": 60, "specialDefense": 45, "speed": 35 },
+    "isWild": true,
+    "evolutions": [{ "name": "Weezing", "level": 35 }],
+    "moves": [
+      {"name": "Smog", "level": 1},
+      {"name": "Sludge", "level": 20}
+    ]
+  },
+  "Weezing": {
+    "name": "Weezing",
+    "types": ["Poison"],
+    "baseStats": { "hp": 65, "attack": 90, "defense": 120, "specialAttack": 85, "specialDefense": 70, "speed": 60 },
+    "isWild": true,
+    "moves": [
+      {"name": "Sludge Bomb", "level": 44},
+      {"name": "Explosion", "level": 51}
+    ]
+  },
+  "Rhyhorn": {
+    "name": "Rhyhorn",
+    "types": ["Ground", "Rock"],
+    "baseStats": { "hp": 80, "attack": 85, "defense": 95, "specialAttack": 30, "specialDefense": 30, "speed": 25 },
+    "isWild": true,
+    "evolutions": [{ "name": "Rhydon", "level": 42 }],
+    "moves": [
+      {"name": "Horn Attack", "level": 1},
+      {"name": "Stomp", "level": 30}
+    ]
+  },
+  "Rhydon": {
+    "name": "Rhydon",
+    "types": ["Ground", "Rock"],
+    "baseStats": { "hp": 105, "attack": 130, "defense": 120, "specialAttack": 45, "specialDefense": 45, "speed": 40 },
+    "isWild": true,
+    "moves": [
+      {"name": "Hammer Arm", "level": 55},
+      {"name": "Stone Edge", "level": 48}
+    ]
+  },
+  "Chansey": {
+    "name": "Chansey",
+    "types": ["Normal"],
+    "baseStats": { "hp": 250, "attack": 5, "defense": 5, "specialAttack": 35, "specialDefense": 105, "speed": 50 },
+    "isWild": true,
+    "evolutions": [{ "name": "Blissey", "method": "Friendship" }],
+    "moves": [
+      {"name": "Soft-Boiled", "level": 1},
+      {"name": "Double-Edge", "level": 44}
+    ]
+  },
+  "Tangela": {
+    "name": "Tangela",
+    "types": ["Grass"],
+    "baseStats": { "hp": 65, "attack": 55, "defense": 115, "specialAttack": 100, "specialDefense": 40, "speed": 60 },
+    "isWild": true,
+    "moves": [
+      {"name": "Vine Whip", "level": 1},
+      {"name": "Sleep Powder", "level": 29}
+    ]
+  },
+  "Kangaskhan": {
+    "name": "Kangaskhan",
+    "types": ["Normal"],
+    "baseStats": { "hp": 105, "attack": 95, "defense": 80, "specialAttack": 40, "specialDefense": 80, "speed": 90 },
+    "isWild": true,
+    "moves": [
+      {"name": "Comet Punch", "level": 1},
+      {"name": "Dizzy Punch", "level": 46}
+    ]
+  },
+  "Horsea": {
+    "name": "Horsea",
+    "types": ["Water"],
+    "baseStats": { "hp": 30, "attack": 40, "defense": 70, "specialAttack": 70, "specialDefense": 25, "speed": 60 },
+    "isWild": true,
+    "evolutions": [{ "name": "Seadra", "level": 32 }],
+    "moves": [
+      {"name": "Bubble", "level": 1},
+      {"name": "Water Gun", "level": 19}
+    ]
+  },
+  "Seadra": {
+    "name": "Seadra",
+    "types": ["Water"],
+    "baseStats": { "hp": 55, "attack": 65, "defense": 95, "specialAttack": 95, "specialDefense": 45, "speed": 85 },
+    "isWild": true,
+    "evolutions": [{ "name": "Kingdra", "method": "trade" }],
+    "moves": [
+      {"name": "Dragon Breath", "level": 40},
+      {"name": "Hydro Pump", "level": 52}
+    ]
+  },
+  "Goldeen": {
+    "name": "Goldeen",
+    "types": ["Water"],
+    "baseStats": { "hp": 45, "attack": 67, "defense": 60, "specialAttack": 35, "specialDefense": 50, "speed": 63 },
+    "isWild": true,
+    "evolutions": [{ "name": "Seaking", "level": 33 }],
+    "moves": [
+      {"name": "Peck", "level": 1},
+      {"name": "Horn Attack", "level": 24}
+    ]
+  },
+  "Seaking": {
+    "name": "Seaking",
+    "types": ["Water"],
+    "baseStats": { "hp": 80, "attack": 92, "defense": 65, "specialAttack": 65, "specialDefense": 80, "speed": 68 },
+    "isWild": true,
+    "moves": [
+      {"name": "Waterfall", "level": 39},
+      {"name": "Megahorn", "level": 48}
+    ]
+  },
+  "Staryu": {
+    "name": "Staryu",
+    "types": ["Water"],
+    "baseStats": { "hp": 30, "attack": 45, "defense": 55, "specialAttack": 70, "specialDefense": 55, "speed": 85 },
+    "isWild": true,
+    "evolutions": [{ "name": "Starmie", "item": "Water Stone" }],
+    "moves": [
+      {"name": "Water Gun", "level": 1},
+      {"name": "Rapid Spin", "level": 22}
+    ]
+  },
+  "Starmie": {
+    "name": "Starmie",
+    "types": ["Water", "Psychic"],
+    "baseStats": { "hp": 60, "attack": 75, "defense": 85, "specialAttack": 100, "specialDefense": 85, "speed": 115 },
+    "isWild": true,
+    "moves": [
+      {"name": "Psychic", "level": 1},
+      {"name": "Hydro Pump", "level": 55}
+    ]
+  },
+  "Mr. Mime": {
+    "name": "Mr. Mime",
+    "types": ["Psychic"],
+    "baseStats": { "hp": 40, "attack": 45, "defense": 65, "specialAttack": 100, "specialDefense": 120, "speed": 90 },
+    "isWild": true,
+    "moves": [
+      {"name": "Barrier", "level": 1},
+      {"name": "Psybeam", "level": 31}
+    ]
+  },
+  "Scyther": {
+    "name": "Scyther",
+    "types": ["Bug", "Flying"],
+    "baseStats": { "hp": 70, "attack": 110, "defense": 80, "specialAttack": 55, "specialDefense": 80, "speed": 105 },
+    "isWild": true,
+    "evolutions": [{ "name": "Scizor", "method": "trade" }],
+    "moves": [
+      {"name": "Quick Attack", "level": 1},
+      {"name": "Wing Attack", "level": 36}
+    ]
+  },
+  "Jynx": {
+    "name": "Jynx",
+    "types": ["Ice", "Psychic"],
+    "baseStats": { "hp": 65, "attack": 50, "defense": 35, "specialAttack": 115, "specialDefense": 95, "speed": 95 },
+    "isWild": true,
+    "moves": [
+      {"name": "Lovely Kiss", "level": 1},
+      {"name": "Ice Punch", "level": 41}
+    ]
+  },
+  "Electabuzz": {
+    "name": "Electabuzz",
+    "types": ["Electric"],
+    "baseStats": { "hp": 65, "attack": 83, "defense": 57, "specialAttack": 95, "specialDefense": 85, "speed": 105 },
+    "isWild": true,
+    "moves": [
+      {"name": "Thunder Punch", "level": 1},
+      {"name": "Thunderbolt", "level": 42}
+    ]
+  },
+  "Magmar": {
+    "name": "Magmar",
+    "types": ["Fire"],
+    "baseStats": { "hp": 65, "attack": 95, "defense": 57, "specialAttack": 100, "specialDefense": 85, "speed": 93 },
+    "isWild": true,
+    "moves": [
+      {"name": "Fire Punch", "level": 1},
+      {"name": "Flamethrower", "level": 42}
+    ]
+  },
+  "Pinsir": {
+    "name": "Pinsir",
+    "types": ["Bug"],
+    "baseStats": { "hp": 65, "attack": 125, "defense": 100, "specialAttack": 55, "specialDefense": 70, "speed": 85 },
+    "isWild": true,
+    "moves": [
+      {"name": "Vice Grip", "level": 1},
+      {"name": "Guillotine", "level": 49}
+    ]
+  },
+  "Tauros": {
+    "name": "Tauros",
+    "types": ["Normal"],
+    "baseStats": { "hp": 75, "attack": 100, "defense": 95, "specialAttack": 40, "specialDefense": 70, "speed": 110 },
+    "isWild": true,
+    "moves": [
+      {"name": "Tackle", "level": 1},
+      {"name": "Take Down", "level": 35}
+    ]
+  },
+  "Magikarp": {
+    "name": "Magikarp",
+    "types": ["Water"],
+    "baseStats": { "hp": 20, "attack": 10, "defense": 55, "specialAttack": 15, "specialDefense": 20, "speed": 80 },
+    "isWild": true,
+    "evolutions": [{ "name": "Gyarados", "level": 20 }],
+    "moves": [
+      {"name": "Splash", "level": 1},
+      {"name": "Flail", "level": 15}
+    ]
+  },
+  "Gyarados": {
+    "name": "Gyarados",
+    "types": ["Water", "Flying"],
+    "baseStats": { "hp": 95, "attack": 125, "defense": 79, "specialAttack": 60, "specialDefense": 100, "speed": 81 },
+    "isWild": true,
+    "moves": [
+      {"name": "Thrash", "level": 20},
+      {"name": "Hydro Pump", "level": 52}
+    ]
+  },
+  "Lapras": {
+    "name": "Lapras",
+    "types": ["Water", "Ice"],
+    "baseStats": { "hp": 130, "attack": 85, "defense": 80, "specialAttack": 85, "specialDefense": 95, "speed": 60 },
+    "isWild": true,
+    "moves": [
+      {"name": "Sing", "level": 1},
+      {"name": "Ice Beam", "level": 46}
+    ]
+  },
+  "Ditto": {
+    "name": "Ditto",
+    "types": ["Normal"],
+    "baseStats": { "hp": 48, "attack": 48, "defense": 48, "specialAttack": 48, "specialDefense": 48, "speed": 48 },
+    "isWild": true,
+    "moves": [
+      {"name": "Transform", "level": 1}
+    ]
+  },
+  "Eevee": {
+    "name": "Eevee",
+    "types": ["Normal"],
+    "baseStats": { "hp": 55, "attack": 55, "defense": 50, "specialAttack": 45, "specialDefense": 65, "speed": 55 },
+    "isWild": true,
+    "evolutions": [
+      { "name": "Vaporeon", "item": "Water Stone" },
+      { "name": "Jolteon", "item": "Thunder Stone" },
+      { "name": "Flareon", "item": "Fire Stone" }
+    ],
+    "moves": [
+      {"name": "Tackle", "level": 1},
+      {"name": "Tail Whip", "level": 8}
+    ]
+  },
+  "Vaporeon": {
+    "name": "Vaporeon",
+    "types": ["Water"],
+    "baseStats": { "hp": 130, "attack": 65, "defense": 60, "specialAttack": 110, "specialDefense": 95, "speed": 65 },
+    "isWild": true,
+    "moves": [
+      {"name": "Water Pulse", "level": 1},
+      {"name": "Hydro Pump", "level": 45}
+    ]
+  },
+  "Jolteon": {
+    "name": "Jolteon",
+    "types": ["Electric"],
+    "baseStats": { "hp": 65, "attack": 65, "defense": 60, "specialAttack": 110, "specialDefense": 95, "speed": 130 },
+    "isWild": true,
+    "moves": [
+      {"name": "Thunder Shock", "level": 1},
+      {"name": "Thunder", "level": 45}
+    ]
+  },
+  "Flareon": {
+    "name": "Flareon",
+    "types": ["Fire"],
+    "baseStats": { "hp": 65, "attack": 130, "defense": 60, "specialAttack": 95, "specialDefense": 110, "speed": 65 },
+    "isWild": true,
+    "moves": [
+      {"name": "Ember", "level": 1},
+      {"name": "Fire Blast", "level": 45}
+    ]
+  },
+  "Porygon": {
+    "name": "Porygon",
+    "types": ["Normal"],
+    "baseStats": { "hp": 65, "attack": 60, "defense": 70, "specialAttack": 85, "specialDefense": 75, "speed": 40 },
+    "isWild": true,
+    "evolutions": [{ "name": "Porygon2", "method": "trade" }],
+    "moves": [
+      {"name": "Tackle", "level": 1},
+      {"name": "Psybeam", "level": 35}
+    ]
+  },
+  "Omanyte": {
+    "name": "Omanyte",
+    "types": ["Rock", "Water"],
+    "baseStats": { "hp": 35, "attack": 40, "defense": 100, "specialAttack": 90, "specialDefense": 55, "speed": 35 },
+    "isWild": true,
+    "evolutions": [{ "name": "Omastar", "level": 40 }],
+    "moves": [
+      {"name": "Water Gun", "level": 1},
+      {"name": "Rollout", "level": 34}
+    ]
+  },
+  "Omastar": {
+    "name": "Omastar",
+    "types": ["Rock", "Water"],
+    "baseStats": { "hp": 70, "attack": 60, "defense": 125, "specialAttack": 115, "specialDefense": 70, "speed": 55 },
+    "isWild": true,
+    "moves": [
+      {"name": "Spike Cannon", "level": 49},
+      {"name": "Hydro Pump", "level": 54}
+    ]
+  },
+  "Kabuto": {
+    "name": "Kabuto",
+    "types": ["Rock", "Water"],
+    "baseStats": { "hp": 30, "attack": 80, "defense": 90, "specialAttack": 55, "specialDefense": 45, "speed": 55 },
+    "isWild": true,
+    "evolutions": [{ "name": "Kabutops", "level": 40 }],
+    "moves": [
+      {"name": "Scratch", "level": 1},
+      {"name": "Aqua Jet", "level": 34}
+    ]
+  },
+  "Kabutops": {
+    "name": "Kabutops",
+    "types": ["Rock", "Water"],
+    "baseStats": { "hp": 60, "attack": 115, "defense": 105, "specialAttack": 65, "specialDefense": 70, "speed": 80 },
+    "isWild": true,
+    "moves": [
+      {"name": "Slash", "level": 51},
+      {"name": "Stone Edge", "level": 44}
+    ]
+  },
+  "Aerodactyl": {
+    "name": "Aerodactyl",
+    "types": ["Rock", "Flying"],
+    "baseStats": { "hp": 80, "attack": 105, "defense": 65, "specialAttack": 60, "specialDefense": 75, "speed": 130 },
+    "isWild": true,
+    "moves": [
+      {"name": "Wing Attack", "level": 1},
+      {"name": "Ancient Power", "level": 45}
+    ]
+  },
+  "Snorlax": {
+    "name": "Snorlax",
+    "types": ["Normal"],
+    "baseStats": { "hp": 160, "attack": 110, "defense": 65, "specialAttack": 65, "specialDefense": 110, "speed": 30 },
+    "isWild": true,
+    "moves": [
+      {"name": "Rest", "level": 1},
+      {"name": "Body Slam", "level": 44}
+    ]
+  },
+  "Articuno": {
+    "name": "Articuno",
+    "types": ["Ice", "Flying"],
+    "baseStats": { "hp": 90, "attack": 85, "defense": 100, "specialAttack": 95, "specialDefense": 125, "speed": 85 },
+    "isWild": false,
+    "moves": [
+      {"name": "Ice Beam", "level": 1},
+      {"name": "Blizzard", "level": 60}
+    ]
+  },
+  "Zapdos": {
+    "name": "Zapdos",
+    "types": ["Electric", "Flying"],
+    "baseStats": { "hp": 90, "attack": 90, "defense": 85, "specialAttack": 125, "specialDefense": 90, "speed": 100 },
+    "isWild": false,
+    "moves": [
+      {"name": "Thunderbolt", "level": 1},
+      {"name": "Thunder", "level": 60}
+    ]
+  },
+  "Moltres": {
+    "name": "Moltres",
+    "types": ["Fire", "Flying"],
+    "baseStats": { "hp": 90, "attack": 100, "defense": 90, "specialAttack": 125, "specialDefense": 85, "speed": 90 },
+    "isWild": false,
+    "moves": [
+      {"name": "Flamethrower", "level": 1},
+      {"name": "Sky Attack", "level": 60}
+    ]
+  },
+  "Dratini": {
+    "name": "Dratini",
+    "types": ["Dragon"],
+    "baseStats": { "hp": 41, "attack": 64, "defense": 45, "specialAttack": 50, "specialDefense": 50, "speed": 50 },
+    "isWild": true,
+    "evolutions": [{ "name": "Dragonair", "level": 30 }],
+    "moves": [
+      {"name": "Wrap", "level": 1},
+      {"name": "Twister", "level": 15}
+    ]
+  },
+  "Dragonair": {
+    "name": "Dragonair",
+    "types": ["Dragon"],
+    "baseStats": { "hp": 61, "attack": 84, "defense": 65, "specialAttack": 70, "specialDefense": 70, "speed": 70 },
+    "isWild": true,
+    "evolutions": [{ "name": "Dragonite", "level": 55 }],
+    "moves": [
+      {"name": "Dragon Rage", "level": 25},
+      {"name": "Slam", "level": 41}
+    ]
+  },
+  "Dragonite": {
+    "name": "Dragonite",
+    "types": ["Dragon", "Flying"],
+    "baseStats": { "hp": 91, "attack": 134, "defense": 95, "specialAttack": 100, "specialDefense": 100, "speed": 80 },
+    "isWild": true,
+    "moves": [
+      {"name": "Outrage", "level": 55},
+      {"name": "Hyper Beam", "level": 72}
+    ]
+  },
+  "Mewtwo": {
+    "name": "Mewtwo",
+    "types": ["Psychic"],
+    "baseStats": { "hp": 106, "attack": 110, "defense": 90, "specialAttack": 154, "specialDefense": 90, "speed": 130 },
+    "isWild": false,
+    "moves": [
+      {"name": "Psystrike", "level": 1},
+      {"name": "Recover", "level": 77}
+    ]
+  }
+}

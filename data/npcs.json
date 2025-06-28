@@ -1,0 +1,21 @@
+{
+  "oak": {
+    "name": "Professor Oak",
+    "type": "friendly",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/75/Professor_Oak_XY.png",
+    "dialogue": {
+      "pre_starter": "Come see me in my lab to get your first Pokémon!",
+      "post_starter": "A Pokémon is a lifelong companion. Treat it with care!",
+      "default": "My research on Pokémon evolution continues!"
+    }
+  },
+  "mom": {
+    "name": "Mom",
+    "type": "friendly", 
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/45/Delia_Ketchum.png",
+    "dialogue": {
+      "default": "Good luck on your journey, dear! Don't forget to write!",
+      "post_starter": "I packed some extra potions in your bag!"
+    }
+  }
+}

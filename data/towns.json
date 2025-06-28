@@ -1,0 +1,252 @@
+{
+  "PalletTown": {
+    "name": "Pallet Town",
+    "description": "A quiet town where nothing ever happens...",
+    "connections": ["ViridianCity"],
+    "npcs": [
+      {
+        "id": "oak",
+        "name": "Professor Oak",
+        "dialogue": {
+          "default": "Welcome to the world of Pokémon!",
+          "pre_starter": "Choose your first Pokémon carefully!",
+          "post_starter": "How is your Pokémon doing?"
+        },
+        "locations": ["lab", "town-square"]
+      },
+      {
+        "id": "mom",
+        "name": "Mom",
+        "dialogue": {
+          "default": "Be careful on your journey, dear!"
+        },
+        "locations": ["players-house"]
+      }
+    ],
+    "wildPokemon": [
+      {
+        "species": "Pidgey",
+        "levelRange": [2, 5],
+        "encounterRate": 0.4
+      },
+      {
+        "species": "Rattata",
+        "levelRange": [2, 4],
+        "encounterRate": 0.6
+      }
+    ],
+    "gym": null,
+    "events": []
+  },
+
+  "ViridianCity": {
+    "name": "Viridian City",
+    "description": "The eternally green paradise. The Pokémon Gym is closed with no explanation.",
+    "connections": ["PalletTown", "PewterCity"],
+    "npcs": [
+      {
+        "id": "gym_guard",
+        "name": "Old Man",
+        "dialogue": {
+          "default": "The Gym Leader is away... no one knows when he'll return."
+        },
+        "locations": ["gym-entrance"]
+      },
+      {
+        "id": "shop_clerk",
+        "name": "Shop Clerk",
+        "dialogue": {
+          "default": "We sell the best Poké Balls in town! ...When we're open."
+        },
+        "locations": ["pokemart"]
+      }
+    ],
+    "wildPokemon": [
+      {
+        "species": "Pidgey",
+        "levelRange": [3, 6],
+        "encounterRate": 0.3
+      },
+      {
+        "species": "Rattata",
+        "levelRange": [3, 5],
+        "encounterRate": 0.5
+      },
+      {
+        "species": "Spearow",
+        "levelRange": [4, 7],
+        "encounterRate": 0.2
+      }
+    ],
+    "gym": null,
+    "events": [
+      {
+        "id": "rival_battle_1",
+        "trigger": "after_starter",
+        "dialogue": [
+          "<rival>: Hey! <player>!",
+          "Gramps told me you got a Pokémon!",
+          "I came to check it out!",
+          "Let's battle!"
+        ],
+        "battle": {
+          "trainer": "Rival",
+          "team": [
+            {"species": "Pidgey", "level": 7},
+            {"species": "Starter", "level": 9, "type": "weak_to_player"}
+          ],
+          "reward": 250,
+          "afterDialogue": [
+            "What? How could I lose?",
+            "I picked the wrong Pokémon...",
+            "I'll go train some more!"
+          ]
+        }
+      },
+      {
+        "id": "parcel_delivery",
+        "trigger": "item_parcel",
+        "dialogue": [
+          "Oh! You have Oak's Parcel!",
+          "Please deliver this to Professor Oak for me!"
+        ],
+        "actions": [
+          {"type": "complete_quest", "quest": "deliver_parcel"},
+          {"type": "remove_item", "item": "oak_parcel"}
+        ]
+      }
+    ]
+  },
+
+  "PewterCity": {
+    "name": "Pewter City",
+    "description": "A stone-gray city that stands against the rugged mountains.",
+    "connections": ["ViridianCity", "CeruleanCity"],
+    "npcs": [
+      {
+        "id": "brock",
+        "name": "Brock",
+        "dialogue": {
+          "pre_gym": "Rock-type Pokémon are tough! Can you handle them?",
+          "post_gym": "Your Pokémon have great potential! Keep training them!"
+        },
+        "locations": ["gym"]
+      }
+    ],
+    "wildPokemon": [
+      {
+        "species": "Geodude",
+        "levelRange": [8, 12],
+        "encounterRate": 0.5
+      },
+      {
+        "species": "Sandshrew",
+        "levelRange": [7, 11],
+        "encounterRate": 0.3
+      },
+      {
+        "species": "Zubat",
+        "levelRange": [6, 10],
+        "encounterRate": 0.2
+      }
+    ],
+    "gym": {
+      "leader": "Brock",
+      "badge": "Boulder Badge",
+      "requirements": [],
+      "team": [
+        {"species": "Geodude", "level": 12},
+        {"species": "Onix", "level": 14}
+      ],
+      "reward": 1000,
+      "afterDialogue": [
+        "You've earned the Boulder Badge!",
+        "It proves you defeated me, Brock!"
+      ]
+    },
+    "events": [
+      {
+        "id": "museum_ticket",
+        "trigger": "first_visit",
+        "dialogue": [
+          "Welcome to the Pewter Museum of Science!",
+          "With this ticket, you can see our moon stone exhibit!"
+        ],
+        "actions": [
+          {"type": "give_item", "item": "museum_ticket"}
+        ]
+      }
+    ]
+  },
+
+  "ViridianCityLateGame": {
+    "name": "Viridian City",
+    "description": "The Gym is finally open! A mysterious presence awaits...",
+    "connections": ["PalletTown", "IndigoPlateau"],
+    "npcs": [],
+    "wildPokemon": [
+      {
+        "species": "Pidgeotto",
+        "levelRange": [40, 45],
+        "encounterRate": 0.3
+      },
+      {
+        "species": "Raticate",
+        "levelRange": [38, 43],
+        "encounterRate": 0.4
+      },
+      {
+        "species": "Fearow",
+        "levelRange": [42, 47],
+        "encounterRate": 0.3
+      }
+    ],
+    "gym": {
+      "leader": "Giovanni",
+      "badge": "Earth Badge",
+      "requirements": ["has_7_badges"],
+      "team": [
+        {"species": "Rhyhorn", "level": 55},
+        {"species": "Dugtrio", "level": 55},
+        {"species": "Nidoqueen", "level": 56},
+        {"species": "Nidoking", "level": 56},
+        {"species": "Rhydon", "level": 58},
+        {"species": "Persian", "level": 60}
+      ],
+      "reward": 7500,
+      "afterDialogue": [
+        "I... I can't... believe it...",
+        "The Viridian Gym is finished...",
+        "I'll disband Team Rocket for good!"
+      ]
+    },
+    "events": [
+      {
+        "id": "rival_final_battle",
+        "trigger": "before_gym",
+        "dialogue": [
+          "<rival>: <player>! I knew you'd make it this far!",
+          "I've been training non-stop to beat you!",
+          "This time, I won't lose!"
+        ],
+        "battle": {
+          "trainer": "Rival",
+          "team": [
+            {"species": "Pidgeot", "level": 53},
+            {"species": "Alakazam", "level": 55},
+            {"species": "Rhydon", "level": 55},
+            {"species": "Exeggutor", "level": 57},
+            {"species": "Arcanine", "level": 57},
+            {"species": "Starter", "level": 60, "type": "strong_to_player"}
+          ],
+          "reward": 5000,
+          "afterDialogue": [
+            "No! After all that training...",
+            "I still couldn't beat you...",
+            "Just go on ahead..."
+          ]
+        }
+      }
+    ]
+  }
+}

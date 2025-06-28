@@ -1,0 +1,244 @@
+{
+  "Tackle": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 35,
+    "priority": 0,
+    "description": "A physical attack in which the user charges and slams into the target with its whole body.",
+    "effect": null,
+    "base_delay": 3,
+    "speed_scaling": 1.0
+  },
+  "Scratch": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 35,
+    "priority": 0,
+    "description": "Hard, pointed fingers rake the target to inflict damage.",
+    "effect": null,
+    "base_delay": 3,
+    "speed_scaling": 1.0
+  },
+  "Ember": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 25,
+    "priority": 0,
+    "description": "The target is attacked with small flames. It may also leave the target with a burn.",
+    "effect": {
+      "chance": 10,
+      "status": "burn"
+    },
+    "base_delay": 3,
+    "speed_scaling": 1.0
+  },
+  "Fire Spin": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 35,
+    "accuracy": 85,
+    "pp": 15,
+    "priority": 0,
+    "description": "Traps the target in a whirlpool of fire for 2-5 turns.",
+    "effect": {
+      "chance": 100,
+      "status": "trapped",
+      "duration": "2-5 turns"
+    },
+    "base_delay": 4,
+    "speed_scaling": 1.0
+  },
+  "Water Gun": {
+    "type": "Water",
+    "category": "Special",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 25,
+    "priority": 0,
+    "description": "The target is blasted with a forceful shot of water.",
+    "effect": null,
+    "base_delay": 3,
+    "speed_scaling": 1.0
+  },
+  "Hydro Pump": {
+    "type": "Water",
+    "category": "Special",
+    "power": 110,
+    "accuracy": 80,
+    "pp": 5,
+    "priority": 0,
+    "description": "The target is blasted by a huge volume of water launched under great pressure.",
+    "effect": null,
+    "base_delay": 5,
+    "speed_scaling": 1.0
+  },
+  "Thunder Shock": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 30,
+    "priority": 0,
+    "description": "An electric shock attack that may also leave the target with paralysis.",
+    "effect": {
+      "chance": 10,
+      "status": "paralysis"
+    },
+    "base_delay": 3,
+    "speed_scaling": 1.0
+  },
+  "Thunderbolt": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 15,
+    "priority": 0,
+    "description": "A strong electric blast crashes down on the target. It may also leave the target with paralysis.",
+    "effect": {
+      "chance": 10,
+      "status": "paralysis"
+    },
+    "base_delay": 4,
+    "speed_scaling": 1.0
+  },
+  "Quick Attack": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 30,
+    "priority": 1,
+    "description": "An almost invisibly fast attack that is certain to strike first.",
+    "effect": null,
+    "base_delay": 2,
+    "speed_scaling": 1.5
+  },
+  "Body Slam": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 15,
+    "priority": 0,
+    "description": "The user drops onto the target with its full body weight. It may also leave the target with paralysis.",
+    "effect": {
+      "chance": 30,
+      "status": "paralysis"
+    },
+    "base_delay": 4,
+    "speed_scaling": 1.0
+  },
+  "Hyper Beam": {
+    "type": "Normal",
+    "category": "Special",
+    "power": 150,
+    "accuracy": 90,
+    "pp": 5,
+    "priority": 0,
+    "description": "A powerful beam attack that requires recharging the next turn.",
+    "effect": {
+      "chance": 100,
+      "recharge": true
+    },
+    "base_delay": 6,
+    "speed_scaling": 1.0
+  },
+  "Double Kick": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 30,
+    "accuracy": 100,
+    "pp": 30,
+    "priority": 0,
+    "description": "The user kicks the target twice in succession.",
+    "effect": null,
+    "base_delay": 3,
+    "speed_scaling": 1.0
+  },
+  "Confuse Ray": {
+    "type": "Ghost",
+    "category": "Status",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0,
+    "description": "The user exposes the target to a sinister ray that triggers confusion.",
+    "effect": {
+      "chance": 100,
+      "status": "confusion"
+    },
+    "base_delay": 3,
+    "speed_scaling": 1.0
+  },
+  "Poison Sting": {
+    "type": "Poison",
+    "category": "Physical",
+    "power": 15,
+    "accuracy": 100,
+    "pp": 35,
+    "priority": 0,
+    "description": "The target is stabbed with a poisonous stinger. It may also be poisoned.",
+    "effect": {
+      "chance": 30,
+      "status": "poison"
+    },
+    "base_delay": 3,
+    "speed_scaling": 1.0
+  },
+  "Leech Seed": {
+    "type": "Grass",
+    "category": "Status",
+    "power": 0,
+    "accuracy": 90,
+    "pp": 10,
+    "priority": 0,
+    "description": "A seed is planted on the target that steals HP every turn.",
+    "effect": {
+      "chance": 100,
+      "status": "leech_seed"
+    },
+    "base_delay": 3,
+    "speed_scaling": 1.0
+  },
+  "Growl": {
+    "type": "Normal",
+    "category": "Status",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 40,
+    "priority": 0,
+    "description": "The user growls in an endearing way, making opposing Pokémon less wary. Lowers their Attack stat.",
+    "effect": {
+      "chance": 100,
+      "stat_change": {
+        "attack": -1
+      }
+    },
+    "base_delay": 3,
+    "speed_scaling": 1.0
+  },
+  "Leer": {
+    "type": "Normal",
+    "category": "Status",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 30,
+    "priority": 0,
+    "description": "The user gives an intimidating leer, lowering the target's Defense stat.",
+    "effect": {
+      "chance": 100,
+      "stat_change": {
+        "defense": -1
+      }
+    },
+    "base_delay": 3,
+    "speed_scaling": 1.0
+  }
+}
